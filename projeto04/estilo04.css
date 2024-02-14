@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'rok';
+    src: url(fonts05/rokkitt/Rokkitt-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'rokk';
+    src: url(fonts05/rokkitt/Rokkitt-Medium.ttf) format(truetype);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'rok', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: 'rokk', 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 70px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.menu {
+    color: #000;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #29CABE;
+    border: none;
+    border-radius: 10px;
+
+    color: #f9f9f9;
+    cursor: pointer;
+
+    padding: 10px 30px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #007c74;
+}
+
+main {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+
+    padding: 50px;
+    margin: 50px 70px;
+    columns: 2;
+    text-align: justify;
+    display: flex;
+}
+
+main img {
+    width: 90%;
+}
+
+#conteudo {
+    align-self: center;
+    width: 100%;
+}
+
+:is(main) p {
+    margin: 1em 0;
+}
+
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.item {
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+
+    color: #000;
+    padding: 20px;
+    transition: .5s;
+    text-decoration: none;
+    text-align: justify;
+    width: 200px;
+}
+
+.item:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px #ccc;
+
+    transform: translate(-15px, -15px);
+}
+
+.item img,
+.itens img {
+    width: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+}
+
+.grid-container nav {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50% 50%;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 50px 0;
+}
+
+figure img {
+    border-radius: 50%;
+    margin: 0 20px;
+    width: 300px;
+    height: auto;
+}
+
+aside {
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: inset 10px 10px 10px #a7c6d9, inset -10px -10px 15px #f2f2f2;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+
+    color: #000;
+    padding: 30px;
+    margin: 30px auto;
+}
+
+aside h2 {
+    font-size: 30px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.perguntas {
+    display: grid;
+    grid-template-columns: 45% 15% auto;
+    grid-template-rows: repeat(infinity, 1fr);
+    row-gap: 50px;
+}
+
+.perguntas h3 {
+    text-align: center;
+}
+
+.perguntas img {
+    margin-top: 20px;
+    width: 30px;
+}
+
+article {
+    display: flex;
+    margin: 50px auto;
+}
+
+article img {
+    border-radius: 30px;
+    width: 600px;
+}
+
+blockquote {
+    margin: 30px 50px;
+    text-align: justify;
+    width: 70%;
+}
+
+blockquote > p {
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 30px;
+}
+
+footer img {
+    width: 25px;
+}
+
+.rodape h3 {
+    font-size: 25px;
+}
+
+.rodape a {
+    color: #000;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+.rodape a:visited {
+    color: #5B83A6;
+}
+
+#rodape {
+    width: 70%;
+}
+
+#rodape>a,
+#rodape>p {
+    padding: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    menu {
+        padding: 20px;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .menu,
+    .btn {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding-top: 8px;
+        padding-right: 12px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+    }
+
+    main {
+        margin: 20px;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    #conteudo {
+        width: auto;
+    }
+
+    #conteudo>h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .item {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        max-width: 300px;
+        width: 400px;
+    }
+
+    .grid-container, .grid-container nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens {
+        margin-left: 2.5em;
+    }
+
+    .itens:nth-last-child(even) {
+        margin-right: 2.5em;
+    }
+
+    .img-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    figure {
+        display: none;
+    }
+
+    aside {
+        margin: 12px;
+        padding: 35px;
+    }
+
+    .perguntas {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(infinity, 20px);
+        row-gap: 10px;
+    }
+
+    .perguntas h3 {
+        text-align: start;
+    }
+
+    .perguntas img {
+        display: none;
+    }
+
+    article {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: column-reverse;
+    }
+
+    article img {
+        width: auto;
+        margin: 10px;
+    }
+
+    blockquote {
+        width: auto;
+        margin: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 0;
+    }
+
+    #rodape {
+        margin-bottom: 10px;
+    }
+}

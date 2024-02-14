@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body :where(h1, h2, h3, h4) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p, a, button, input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main p, .lavouras p, .loja p, article p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+main {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main > div {
+    margin: 10px;
+}
+
+header img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+
+menu a {
+    color: #8C1C03;
+    margin: 2px;
+    text-decoration: none;
+}
+
+.btn-bege {
+    background-color: #F2DFBB;
+    border: none;
+    border-radius: 10px;
+
+    color: #8C1C03;
+    cursor: pointer;
+
+    margin-top: 15px;
+
+    padding: 10px 20px;
+    transition: .8s;
+}
+
+.btn-marrom {
+    background-color: #8C1C03;
+    border: none;
+    border-radius: 10px;
+
+    color: #F2DFBB;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    transition: .8s;
+}
+
+.btn-marrom:hover, .btn-bege:hover {
+    transform: scale(0.9);
+}
+
+.letra-branco h2, .letra-branco h3 {
+    color: #fffbf7;
+}
+
+menu a:active, .rodape a:active {
+    color: #D97236;
+}
+
+.logo {
+    width: 40px;
+}
+
+video {
+    border-radius: 20px;
+    width: 500px;
+}
+
+.lavouras {
+    background-color: #D9AE7B;
+    display: grid;
+    grid-template-columns: 45% 50%;
+    padding: 50px;
+    margin: 0;
+}
+
+.loja {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+}
+
+ul {
+    margin: 20px;
+}
+
+li > h3 {
+    padding: 10px;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 15px;
+
+}
+
+figure img {
+    border-radius: 20px;
+    width: 85%;
+}
+
+#img1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#img2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.blog {
+    background-color: #D9ae7b;
+    padding-top: 25px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.texto {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+article a {
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+
+article a:hover {
+    transform: translate(-5px, -5px);
+}
+
+.card:hover {
+    box-shadow: 3px 3px 0px #fff;
+}
+
+.card {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 15px;
+    transition: .5s;
+    margin: 10px;
+    text-align: start;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card img {
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 30%;
+}
+
+footer, .rodape {
+    display: grid;
+    padding: 25px;
+}
+
+.rodape {
+    grid-template-columns: repeat(4, 25%);
+}
+
+.rodape img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link a {
+    color: #000;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.link a:visited {
+    color: #b96d09;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -8rem;
+}
+
+.email div {
+    background-color: #fff;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    
+    padding: 20px;
+    width: 55%;
+}
+
+.email input {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+.email :where(h4, input, button) {
+    margin: 5px;
+    padding: 10px;
+}
+
+.rede-sociais {
+    width: 30px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    body :where(h1, h2, h3, h4){
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    menu img {
+        display: none;
+    }
+
+    main {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main > div {
+        margin: 0;
+    }
+
+    header img {
+        width: auto;
+    }
+
+    .btn-bege, .btn-marrom {
+        padding: 8px 16px;
+    }
+
+    video {
+        width: auto;
+        margin: 20px;
+    }
+
+    .lavouras {
+        padding: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .loja {
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure img {
+        display: none;
+    }
+
+    .blog {
+        padding-top: 20px;
+        padding-bottom: 150px;
+    }
+
+    .texto h2 {
+        text-align: center;
+    }
+
+    .texto {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer, .rodape {
+        padding: 5px;
+    }
+
+    .rodape {
+        grid-template-columns: 100%;
+    }
+
+    .rodape div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .email div {
+        width: 80%;
+    }
+}
