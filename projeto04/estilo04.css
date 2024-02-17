@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'rok';
-    src: url(fonts05/rokkitt/Rokkitt-Bold.ttf) format(truetype);
+    src: url(fonts04/rokkitt/Rokkitt-Bold.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'rokk';
-    src: url(fonts05/rokkitt/Rokkitt-Medium.ttf) format(truetype);
+    src: url(fonts04/rokkitt/Rokkitt-Medium.ttf) format(truetype);
 }
 
 * {
