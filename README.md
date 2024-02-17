@@ -25,5 +25,5 @@
 <p>Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade para seguir as diretrizes mencionadas no README. Aceitamos sugestões , correções de bugs e melhoria no design.</p>
 
 <h2>## Licença⚙️</h2>
-<p>Este projeto é licenciado sob a licença MIT, o que significa que você é livre para usar, modificar e distribuir este código.</p>
+<p>Este projeto é licenciado sob a <a href="LICENSE">licença MIT</a>, o que significa que você é livre para usar, modificar e distribuir este código.</p>
 <p>Esperamos contar com sua contribuição para tomar o Projeto JavaScript uma referência de solução práticas em JavaScript. Obrigado por fazer parte desta comunidade!</p>
