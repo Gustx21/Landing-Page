@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'justus';
-    src: url(../../fontes/projeto05/justus/Justus-Bold.ttf) format(truetype);
+    src: url(fonts05/justus/Justus-Bold.ttf) format(truetype);
 }
 
 .btn {
