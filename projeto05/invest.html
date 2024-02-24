@@ -223,6 +223,18 @@
             <a href="#">Biblioteca</a>
         </div>
     </footer>
+    <script>
+        // Verificando se a página está sendo visualizada
+        const verificar = () => {
+            if (document.visibilityState  === 'visible') {
+                console.log('Usuário está na página.');
+            } else {
+                console.log('Usuário  n~~aoo está na pagina.');
+            };
+        };
+
+        document.addEventListener('visibilitychange',  verificar);
+    </script>
 </body>
 
 </html>
