@@ -16,10 +16,10 @@
 
 
 <h2>Projetos Hospedados🌐</h2>
-<p><a href="projeto01/cubo01.html">projeto01.</a></p>
-<p><a href="projeto02/index.html">projeto02.</a></p>
-<p><a href="projeto03/café.html">projeto03.</a></p>
-<p><a href="projeto04/umbrella.html">projeto04.</a></p>
+<p><a target="_blank" href="projeto01/cubo01.html">projeto01.</a></p>
+<p><a target="_blank" href="projeto02/index.html">projeto02.</a></p>
+<p><a target="_blank" href="projeto03/café.html">projeto03.</a></p>
+<p><a target="_blank" href="projeto04/umbrella.html">projeto04.</a></p>
 
 <h2>Como contribuir📂</h2>
 <p>Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade para seguir as diretrizes mencionadas no README. Aceitamos sugestões , correções de bugs e melhoria no design.</p>
