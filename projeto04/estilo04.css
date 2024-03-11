@@ -118,9 +118,9 @@ section {
     border-style: solid;
     border-color: #ccc;
     border-radius: 10px;
-    box-shadow: 10px 10px 0px #ccc;
+    box-shadow: 6px 6px 0px #ccc;
 
-    transform: translate(-15px, -15px);
+    transform: translate(-4px, -4px);
 }
 
 .item img,
