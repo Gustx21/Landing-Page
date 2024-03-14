@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Quesha';
+    src: url(fonts03/lionello-font/LionelloDemoLight-51ywZ.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
+    font-family: Times, 'Times New Roman', serif;
 }
 
-body :where(h1, h2, h3, h4) {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body :where(h1, h2, h4) {
+    font-family: 'Quesha';
     padding-bottom: 20px;
 }
 
@@ -16,10 +22,6 @@ h2 {
 
 h4 {
     font-size: 18px;
-}
-
-p, a, button, input{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main p, .lavouras p, .loja p, article p {
