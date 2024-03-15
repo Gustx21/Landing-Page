@@ -1,18 +1,17 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: '';
-    src: url(fonts03/);
-}
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
-    font-family: Times, 'Times New Roman', serif;
+    font-family: "Zilla Slab", serif;
 }
 
-body :where(h1, h2, h4) {
-    font-family: 'Quesha';
+body :where(h1, h2, h3, h4) {
+    font-family: "Grandiflora One", cursive;
     padding-bottom: 20px;
 }
 
@@ -24,7 +23,10 @@ h4 {
     font-size: 18px;
 }
 
-main p, .lavouras p, .loja p, article p {
+main p,
+.lavouras p,
+.loja p,
+article p {
     text-indent: 10px;
     text-align: justify;
 }
@@ -35,7 +37,7 @@ main {
     grid-template-columns: 50% 50%;
 }
 
-main > div {
+main>div {
     margin: 10px;
 }
 
@@ -83,15 +85,18 @@ menu a {
     transition: .8s;
 }
 
-.btn-marrom:hover, .btn-bege:hover {
+.btn-marrom:hover,
+.btn-bege:hover {
     transform: scale(0.9);
 }
 
-.letra-branco h2, .letra-branco h3 {
+.letra-branco h2,
+.letra-branco h3 {
     color: #fffbf7;
 }
 
-menu a:active, .rodape a:active {
+menu a:active,
+.rodape a:active {
     color: #D97236;
 }
 
@@ -122,7 +127,7 @@ ul {
     margin: 20px;
 }
 
-li > h3 {
+li>h3 {
     padding: 10px;
 }
 
@@ -202,7 +207,8 @@ article a:hover {
     width: 28%;
 }
 
-footer, .rodape {
+footer,
+.rodape {
     display: grid;
     padding: 25px;
 }
@@ -251,7 +257,7 @@ footer, .rodape {
     border-width: 2px;
     border-style: solid;
     border-color: #000;
-    
+
     padding: 20px;
     width: 55%;
 }
@@ -274,7 +280,7 @@ footer, .rodape {
 }
 
 @media screen and (max-width: 1200px) {
-    body :where(h1, h2, h3, h4){
+    body :where(h1, h2, h3, h4) {
         padding-bottom: 10px;
     }
 
@@ -304,7 +310,7 @@ footer, .rodape {
         flex-direction: column;
     }
 
-    main > div {
+    main>div {
         margin: 0;
     }
 
@@ -312,7 +318,8 @@ footer, .rodape {
         width: auto;
     }
 
-    .btn-bege, .btn-marrom {
+    .btn-bege,
+    .btn-marrom {
         padding: 8px 16px;
     }
 
@@ -356,7 +363,8 @@ footer, .rodape {
         flex-direction: column;
     }
 
-    footer, .rodape {
+    footer,
+    .rodape {
         padding: 5px;
     }
 
