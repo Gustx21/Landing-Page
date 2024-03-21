@@ -7,8 +7,12 @@
 }
 
 body :where(h1, h2, h3, h4) {
-    font-family: "Grandiflora One", cursive;
+    font-family: "Comfortaa", sans-serif;
     padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 56px;
 }
 
 main p,
@@ -42,17 +46,17 @@ menu {
 }
 
 menu a {
-    color: #8C1C03;
+    color: #8C271E;
     margin: 2px;
     text-decoration: none;
 }
 
 .btn-bege {
-    background-color: #F2DFBB;
+    background-color: #FEFAE0;
     border: none;
     border-radius: 10px;
 
-    color: #8C1C03;
+    color: #8C271E;
     cursor: pointer;
 
     margin-top: 15px;
@@ -62,11 +66,11 @@ menu a {
 }
 
 .btn-marrom {
-    background-color: #8C1C03;
+    background-color: #8C271E;
     border: none;
     border-radius: 10px;
 
-    color: #F2DFBB;
+    color: #FEFAE0;
     cursor: pointer;
 
     padding: 10px 20px;
@@ -98,7 +102,7 @@ video {
 }
 
 .lavouras {
-    background-color: #D9AE7B;
+    background-color: #D4A373;
     display: grid;
     grid-template-columns: 45% 50%;
     padding: 50px;
@@ -142,7 +146,7 @@ figure img {
 }
 
 .blog {
-    background-color: #D9ae7b;
+    background-color: #D4A373;
     padding-top: 25px;
     padding-bottom: 120px;
     text-align: center;
