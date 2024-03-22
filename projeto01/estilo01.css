@@ -43,18 +43,22 @@ body {
 
 h1 {
     font-size: 2rem;
-    font-weight: 800;
-    font-family: "Kaisei Tokumin", serif;
+    font-weight: 500;
+    font-family: "Pridi", serif;
+    font-style: normal;
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: 800;
-    font-family: "Kaisei Tokumin", serif;
+    font-weight: 500;
+    font-family: "Pridi", serif;
+    font-style: normal;
 }
 
 span {
     color: #dc87d8;
+    font-weight: 300;
+    font-family: "Pridi", serif;
 }
 
 a {
