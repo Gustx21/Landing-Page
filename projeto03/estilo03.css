@@ -8,6 +8,7 @@
 
 body :where(h1, h2, h3, h4) {
     font-family: "Comfortaa", sans-serif;
+    font-weight: 900;
     padding-bottom: 20px;
 }
 
@@ -49,6 +50,7 @@ menu a {
     color: #8C271E;
     margin: 2px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .btn-bege {
@@ -63,6 +65,7 @@ menu a {
 
     padding: 10px 20px;
     transition: .8s;
+    font-weight: 900;
 }
 
 .btn-marrom {
@@ -75,6 +78,7 @@ menu a {
 
     padding: 10px 20px;
     transition: .8s;
+    font-weight: 900;
 }
 
 .btn-marrom:hover,
@@ -277,7 +281,7 @@ footer,
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 42px;
     }
 
     .card h3 {
