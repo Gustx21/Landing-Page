@@ -123,7 +123,7 @@ ul {
     margin: 20px;
 }
 
-li>h3 {
+li h3 {
     padding: 10px;
 }
 
@@ -298,7 +298,7 @@ footer,
         flex-direction: column;
     }
 
-    main>div {
+    main div {
         margin: 0;
     }
 
