@@ -121,7 +121,7 @@ section {
 
 .subdivisao {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 45rem 40%;
     padding: 20px;
 }
 
@@ -275,11 +275,8 @@ footer img {
     }
 
     .btn {
-        padding-top: 8px;
-        padding-right: 12px;
-        padding-bottom: 8px;
-        padding-left: 12px;
-    }
+        padding: 8px 12px;
+    } 
 
     main {
         margin: 20px;
@@ -291,7 +288,7 @@ footer img {
         width: auto;
     }
 
-    #conteudo h1 {
+    h1 {
         font-size: 30px;
     }
 
@@ -299,24 +296,24 @@ footer img {
         padding: 2rem 20px;
     }
 
-    .card {
+    .seçao {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         margin-left: auto;
         margin-right: auto;
     }
 
-    .grid-container, .areas {
+    .subdivisao, .areas {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .itens {
+    .segmentos {
         margin-left: 2.5em;
     }
 
-    .itens:nth-last-child(even) {
+    .segmentos:nth-last-child(even) {
         margin-right: 2.5em;
     }
 
