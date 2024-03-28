@@ -133,13 +133,19 @@ section {
     padding-top: 50px;
 }
 
-.img-container {
+h4 {
+    background: linear-gradient(90deg, rgba(9,9,121,1) 10%, rgba(41,202,190,1) 50%);
+    background-clip: text;
+    color: transparent;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img-container img {
+.container img {
     width: 100%;
 }
 
