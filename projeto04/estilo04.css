@@ -121,13 +121,13 @@ section {
 
 .subdivisao {
     display: grid;
-    grid-template-columns: 45rem 40%;
+    grid-template-columns: 45rem 45%;
     padding: 20px;
 }
 
 .areas {
     display: grid;
-    grid-template-columns: 35% 35%;
+    grid-template-columns: 34% 34%;
     grid-template-rows: 50% 50%;
     gap: 20px;
     padding-top: 50px;
