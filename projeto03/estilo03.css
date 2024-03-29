@@ -213,6 +213,10 @@ footer,
     padding: 25px;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 .rodape {
     grid-template-columns: repeat(4, 25%);
 }
