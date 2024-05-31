@@ -11,13 +11,13 @@
 * CSS3
 
 ## Projetos Hospedados🌐
- [projeto01.](https://projeto01/cubo01.html)
+ [projeto01.](https://gustx21.github.io/Landing-Page/projeto01/cubo01.html)
 
- [projeto02.](https://projeto02/index.html)
+ [projeto02.](https://gustx21.github.io/Landing-Page/projeto02/index.html)
 
- [projeto03.](https://projeto03/cafe.html)
+ [projeto03.](https://gustx21.github.io/Landing-Page/projeto03/cafe.html)
 
- [projeto04.](https://projeto41/umbrella.html)
+ [projeto04.](https://gustx21.github.io/Landing-Page/projeto41/umbrella.html)
 
 ## Contribuição📂
  Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade Aceitamos sugestões, correções de bugs e melhoria no design.
