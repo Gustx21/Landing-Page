@@ -23,4 +23,4 @@
  Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade Aceitamos sugestões, correções de bugs e melhoria no design.
 
 ### Licença⚙️
- Este projeto é licenciado sob a [licença MIT](LICENSA), o que significa que você é livre para usar, modificar e distribuir este código.
+ Este projeto é licenciado sob a [licença MIT](LICENSE), o que significa que você é livre para usar, modificar e distribuir este código.
