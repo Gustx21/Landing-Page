@@ -89,12 +89,13 @@ a:hover {
 
     margin: 0;
     padding: 20px 70px;
-    transition: .1s;
+    transition: .3s;
     text-align: center;
 }
 
 #btn:active {
     box-shadow: 0 0 0 #000;
+    transform: translate(6px, 6px);
 }
 
 .principal {
