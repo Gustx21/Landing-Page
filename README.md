@@ -13,9 +13,9 @@
 ## Projetos Hospedados🌐
  [Projeto de Cadastro](https://gustx21.github.io/Landing-Page/projeto01/cubo01.html)
 
- [Projeto de Cafeteria](https://gustx21.github.io/Landing-Page/projeto03/cafe.html)
+ [Projeto de Cafeteria](https://gustx21.github.io/Landing-Page/projeto02/cafe.html)
 
- [Projeto de Página Escolar](https://gustx21.github.io/Landing-Page/projeto04/umbrella.html)
+ [Projeto de Página Escolar](https://gustx21.github.io/Landing-Page/projeto03/umbrella.html)
 
 ## Contribuição📂
  Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade Aceitamos sugestões, correções de bugs e melhoria no design.
