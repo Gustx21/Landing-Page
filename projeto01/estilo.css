@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Comprehension';
-    src: url(fonts01/comprehension/Comprehension-SemiBold.otf) format(opentype);
+    src: url(fonts/comprehension/Comprehension-SemiBold.otf) format(opentype);
 }
 
 * {
