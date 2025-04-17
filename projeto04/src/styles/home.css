@@ -1,0 +1,42 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* NavBar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Main */
+#content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+    margin: 20px 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 1px #ccc;
+}
+
+#content p {
+    text-align: justify;
+}
+
+h1 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
