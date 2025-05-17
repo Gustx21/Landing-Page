@@ -3,40 +3,26 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    margin: 0;
 }
 
-/* NavBar */
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 15px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
-/* Main */
-#content {
+/* Area Segments */
+.segments {
     display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 20px;
-    margin: 20px 10px;
-    width: 80%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.segments article {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
     border-radius: 10px;
-    border: 1px solid #000;
-    box-shadow: 8px 8px 1px #ccc;
-}
-
-#content p {
+    padding: 20px;
     text-align: justify;
-}
-
-h1 {
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 500;
-    font-style: normal;
 }

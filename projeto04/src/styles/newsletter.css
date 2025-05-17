@@ -1,0 +1,7 @@
+/* Newsletter */
+.newsletter {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin: 0 30px;
+}
