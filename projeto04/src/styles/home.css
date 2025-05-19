@@ -26,3 +26,8 @@
     padding: 20px;
     text-align: justify;
 }
+
+.segments h3 {
+    color: #e89768;
+    line-height: 2rem;
+}
